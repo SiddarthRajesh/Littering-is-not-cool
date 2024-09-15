@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Littering Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Littering Awareness Quiz</h1>
+
+        <!-- Question 1 -->
+        <div class="question" id="question1">
+            <p>What do people do when they find trash in the ocean?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="a"> A. Leave it there</label>
+                <label><input type="radio" name="q1" value="b"> B. Take it to a landfill</label>
+                <label><input type="radio" name="q1" value="c"> C. Collect it for recycling</label>
+                <label><input type="radio" name="q1" value="d"> D. Ignore it</label>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question" id="question2">
+            <p>What percentage of the population litters?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> A. 48%</label>
+                <label><input type="radio" name="q2" value="b"> B. 99.99%</label>
+                <label><input type="radio" name="q2" value="c"> C. 58%</label>
+                <label><input type="radio" name="q2" value="d"> D. 20%</label>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question" id="question3">
+            <p>Is it okay to litter?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="yes"> Yes</label>
+                <label><input type="radio" name="q3" value="no"> No</label>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question" id="question4">
+            <p>Name 5 examples of things affected by littering:</p>
+            <textarea id="q4" rows="4" placeholder="e.g., animals, waterways, etc."></textarea>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question" id="question5">
+            <p>Why is anti-littering important?</p>
+            <textarea id="q5" rows="4" placeholder="Your answer"></textarea>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question" id="question6">
+            <p>What are the common items people litter? (e.g., plastic, paper)</p>
+            <textarea id="q6" rows="4" placeholder="Your answer"></textarea>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question" id="question7">
+            <p>Does littering affect other people's daily life?</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="yes"> Yes</label>
+                <label><input type="radio" name="q7" value="no"> No</label>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question" id="question8">
+            <p>When we litter, how does it actually affect the earth?</p>
+            <textarea id="q8" rows="4" placeholder="Your answer"></textarea>
+        </div>
+
+        <button onclick="submitQuiz()">Submit</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
